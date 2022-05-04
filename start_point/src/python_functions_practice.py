@@ -30,3 +30,27 @@ def reverse_word(word):
 def convert_temp(number):
     calc = (number - 32) * (5/9)
     return calc
+
+def return_10():
+    return 10
+
+
+def subtract(num_1, num_2):
+    return num_1 - num_2
+
+
+def divide(number1, number2):
+    return number1 / number2
+
+
+def join_string(string_1, string_2):
+    return string_1 + string_2
+
+
+def number_to_full_month_name(number):
+    months = ["January","February","March","April","May","June","July","August","September","October","November","December"]
+    return months[number - 1]
+
+
+def volume_of_cube(number):
+    return number ** 3
